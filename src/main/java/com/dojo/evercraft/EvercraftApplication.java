@@ -11,9 +11,4 @@ public class EvercraftApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EvercraftApplication.class, args);
 	}
-
-	@Bean
-	public RestTemplate getRestTemplate() {
-		return new RestTemplate();
-	}
 }
